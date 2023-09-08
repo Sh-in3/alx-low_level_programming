@@ -3,6 +3,7 @@
 /**
  * main - Entry point
  *
+ * 
  * Return: Always 0 (Success)
 */
 
@@ -12,8 +13,8 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		putchar(ch);
-		++ch;
+		putchar(i);
+		++i;
 	}
 	putchar('\n');
 
