@@ -1,14 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: always 0
- */
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	char i = 'abcdefghijklmnopqrstuvwxyz'
+	char i = 'a';
 
-	putchar(i)
+	while (i <= 'z')
+	{
+		putchar(ch);
+		++ch;
+	}
+	putchar('\n');
+
+	return (0);
 }
