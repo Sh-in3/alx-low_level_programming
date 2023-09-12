@@ -1,9 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void put()
-{
-	gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar;
-}
+int _putchar(char c);
 
-#endif
+#endif /* MAIN_H */
