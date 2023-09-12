@@ -7,12 +7,9 @@
 
 int main(void)
 {
-	char j = 97;
-	int i = 0;
+	int ch;
 
-	for (i; i < 26;)
-	{
-		_putchar("%c \n", j + i);
-		i++;
-	}
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
+	_putchar('\n');
 }
