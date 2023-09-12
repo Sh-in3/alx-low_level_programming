@@ -2,18 +2,15 @@
 /**
  * main - check the code
  *
+ * print_alphabet(void): Use _putchar function to print a - z
  * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
+	int ch;
 
-	char j = 122;
-	int i = 0;
-	
-	for (i; i < 26;)
-	{
-		_putchar("%c \n", j - i);
-		i++;
-	}
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
+	_putchar('\n');
 }
