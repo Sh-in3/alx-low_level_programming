@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * print_alphabet(void): Use _putchar function to print a - z
+ * print_alphabet - Use _putchar function to print a - z
  * Return: Always 0.
  */
 
