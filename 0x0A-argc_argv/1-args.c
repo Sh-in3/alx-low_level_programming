@@ -7,13 +7,16 @@
  * Return: always 0
  */
 
-#include <stdio.h>
+#include "main.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((unused)) *argv[])
 {
+	if (argc > 0)
+	{
+		argc--;
+	}
 
-	printf("%d\n", argc);
-
+		printf("%d\n", argc);
 
 	return (0);
 }
