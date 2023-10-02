@@ -14,9 +14,8 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		_putchar(*argv[0]);
+		printf("%s\n", argv[0]);
 	}
-	_putchar('\n');
 
 	return (0);
 }
