@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * malloc_checked - allocate memory using malloc
  *
  * @b: integer to store and print
